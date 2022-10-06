@@ -15,7 +15,7 @@
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="about.html">Главная</a>
+            <a class="navigation-link navigation-link-current" href="about.html">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О седоне</a>
@@ -47,7 +47,9 @@
     </header>
     <main class="main-index">
       <h1 class="visual-hidden">Седона</h1>
-      <img class="logo" src="" alt="Логотип Седоны">
+      <a class="navigation-logo" href="catalog.html">
+        <img class="logo" src="" alt="Логотип Седоны">
+      </a>
       <section class="advantages">
         <h2 class="visual-hidden">Преимущества</h2>
         <ul class="advantages-list">
@@ -93,16 +95,15 @@
           <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
             required>
           <button class="button newsletter-button" type="submit">
-            <a class="button">Подписаться</a>
+            Подписаться
           </button>
         </form>
       </section>
-      </section>
       <section class="footer-contacts">
-        <h2 class="visually-hidden">Контакты</h2>
-        <adress class="contacts-adress">
+        <h4 class="visually-hidden">Контакты</h4>
+        <address class="contacts-adress">
           <a class="contacts-phone" href="tel:78128121212">+7 (812) 812-12-12</a>
-        </adress>
+        </address>
       </section>
 
       <section class="newsletter">
@@ -125,10 +126,9 @@
           </li>
         </ul>
       </section>
-
-      <section class="footer-social">
+      <div class="footer-social">
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">html.academy</a>
-      </section>
+      </div>
     </footer>
   </body>
 
