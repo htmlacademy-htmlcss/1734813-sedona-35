@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.welcome-image {
+  background-image: url("../images/sedonabackground.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.newsletter {
+  background-image: url("../images/subcribe.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.inner-header {
+  background-image: url("../images/sedonabackground.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.blue-block {
+  background-color: #82B3D3;
+  text-align: center;
+}
