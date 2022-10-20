@@ -76,6 +76,7 @@ a {
   font-weight: 700;
   color: #000000;
 }
+
 .navigation-link-button {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
@@ -84,6 +85,7 @@ a {
   background-color: #756157;
   color: #FFFFFF;
   border: none;
+  text-transform: uppercase;
 }
 
 .welcome-text h2 {
@@ -93,6 +95,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .welcome-text p {
@@ -111,6 +114,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .advantages-decription-first {
@@ -129,6 +133,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .advantages-decription-second {
@@ -147,6 +152,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .text {
@@ -164,6 +170,7 @@ a {
   line-height: 36px;
   font-weight: 700;
   color: #000000;
+  text-transform: uppercase;
 }
 
 .housing-card-title {
@@ -199,6 +206,7 @@ a {
   text-align: center;
   color: #FFFFFF;
   background-color: #756157;
+  text-transform: uppercase;
 }
 
 .housing-card-button-love {
@@ -209,9 +217,10 @@ a {
   text-align: center;
   color: #FFFFFF;
   background-color: #82B3D3;
+  text-transform: uppercase;
 }
 
-.housing-card-button-love-love {
+.housing-card-button-love-green {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -219,6 +228,16 @@ a {
   text-align: center;
   color: #FFFFFF;
   background-color: #7DB54F;
+  text-transform: uppercase;
+}
+
+.rating {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 .page-footer-title {
@@ -228,6 +247,16 @@ a {
   font-weight: 700;
   text-align: center;
   color: #000000;
+  text-transform: uppercase;
+}
+
+.newsletter-white p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .newsletter p {
@@ -246,6 +275,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .button-newsletter-button {
@@ -276,6 +306,7 @@ a {
   color: #FFFFFF;
   text-align: center;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .inner-header-title {
@@ -284,6 +315,7 @@ a {
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 .breadcrumbs-link {
@@ -316,12 +348,10 @@ a {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
-}
-
-.button-enter {
   background-color: #82B3D3;
   text-align: center;
   border: none;
+  text-transform: uppercase;
 }
 
 .filter-reset-uppercase-button {
@@ -330,6 +360,9 @@ a {
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
 }
 
 .button-enter {
