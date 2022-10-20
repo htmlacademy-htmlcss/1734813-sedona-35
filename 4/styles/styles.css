@@ -76,6 +76,15 @@ a {
   font-weight: 700;
   color: #000000;
 }
+.navigation-link-button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: #756157;
+  color: #FFFFFF;
+  border: none;
+}
 
 .welcome-text h2 {
   font-family: "PT Sans", sans-serif;
@@ -189,6 +198,7 @@ a {
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
+  background-color: #756157;
 }
 
 .housing-card-button-love {
@@ -198,6 +208,17 @@ a {
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
+  background-color: #82B3D3;
+}
+
+.housing-card-button-love-love {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #7DB54F;
 }
 
 .page-footer-title {
@@ -215,7 +236,7 @@ a {
   line-height: 26px;
   font-weight: 400;
   text-align: center;
-  color: #FFFFFF;
+  color: #333333;
 }
 
 .button-newsletter-button {
