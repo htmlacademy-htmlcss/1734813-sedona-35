@@ -14,7 +14,16 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
@@ -69,6 +78,18 @@ a {
   text-align: center;
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 430px;
+  margin: 0;
+  padding: 0;
+}
+
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
@@ -76,6 +97,22 @@ a {
   font-weight: 700;
   color: #000000;
 }
+
+.navigation-user {
+  max-width: 250px;
+  margin-left: auto;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
 
 .navigation-link-button {
   font-family: "PT Sans", sans-serif;
@@ -105,6 +142,22 @@ a {
   font-weight: 400;
   text-align: center;
   color: #333333;
+}
+
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages-item {
+  width: 400px;
+}
+
+.advantages-item-big {
+  width: 1200px;
 }
 
 .advantages-title-first {
@@ -413,4 +466,28 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-footer-container {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.navigation-logo {
+  width: 140px;
+  margin-right: 40px;
+}
+
+.infrastructure-type-of-housing-filter {
+  width: 150px;
+  margin-right: 70px;
+}
+
+.catalog-right-column {
+  width: 431px;
 }
