@@ -76,6 +76,7 @@ a {
 .blue-block {
   background-color: #82B3D3;
   text-align: center;
+  width: 400px;
 }
 
 .navigation {
@@ -150,6 +151,8 @@ a {
   padding: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
 
 .advantages-item {
@@ -346,10 +349,6 @@ a {
   color: #000000;
 }
 
-.button-search-sedona {
-  background-color: #756157;
-  text-align: center;
-}
 
 .button-search-sedona {
   font-family: "PT Sans", sans-serif;
@@ -360,9 +359,10 @@ a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: #756157;
 }
 
-.inner-header-title {
+.title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 60px;
@@ -486,6 +486,7 @@ a {
 .infrastructure-type-of-housing-filter {
   width: 150px;
   margin-right: 70px;
+  display: flex;
 }
 
 .catalog-right-column {
