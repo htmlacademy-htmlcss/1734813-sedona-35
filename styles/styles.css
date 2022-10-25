@@ -89,6 +89,7 @@ a {
   width: 430px;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 .navigation-link {
@@ -107,7 +108,10 @@ a {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  background: #ffffff;
+  padding: 0 auto;
 }
+
 
 .logo {
   display: block;
@@ -124,6 +128,7 @@ a {
   color: #FFFFFF;
   border: none;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .welcome-text h2 {
@@ -150,17 +155,19 @@ a {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  align-content: stretch;
 }
 
 .advantages-item {
   width: 400px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .advantages-item-big {
   width: 1200px;
+  display: flex;
 }
 
 .advantages-title-first {
@@ -173,7 +180,7 @@ a {
   text-transform: uppercase;
 }
 
-.advantages-decription-first {
+.advantages-description-first {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -209,6 +216,10 @@ a {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+}
+
+.interested-button {
+  text-align: center;
 }
 
 .text {
@@ -263,6 +274,8 @@ a {
   color: #FFFFFF;
   background-color: #756157;
   text-transform: uppercase;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .housing-card-button-love {
@@ -360,9 +373,12 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   background-color: #756157;
+  width: 500px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
-.title {
+.inner-header-title {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 60px;
@@ -472,10 +488,14 @@ a {
   flex-grow: 1;
 }
 
+.page-footer-container-subscribe {
+  text-align: center;
+}
+
 .page-footer-container {
   display: flex;
-  width: 940px;
-  margin: 0 auto;
+  padding: 20px 70px;
+  justify-content: space-between;
 }
 
 .navigation-logo {
@@ -484,9 +504,8 @@ a {
 }
 
 .infrastructure-type-of-housing-filter {
-  width: 150px;
-  margin-right: 70px;
   display: flex;
+  padding: 70px 70px;
 }
 
 .catalog-right-column {
