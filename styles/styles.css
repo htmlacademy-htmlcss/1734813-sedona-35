@@ -14,7 +14,16 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
@@ -61,12 +70,25 @@ a {
   background-image: url("../images/form-hotel.jpg");
   background-size: 118% auto;
   background-repeat: no-repeat;
-  text-align: center;
 }
 
 .blue-block {
   background-color: #82B3D3;
   text-align: center;
+  width: 400px;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 430px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .navigation-link {
@@ -77,6 +99,24 @@ a {
   color: #000000;
 }
 
+.navigation-user {
+  max-width: 250px;
+  margin-left: auto;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  background: #ffffff;
+}
+
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+
 .navigation-link-button {
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
@@ -86,6 +126,7 @@ a {
   color: #FFFFFF;
   border: none;
   text-transform: uppercase;
+  list-style: none;
 }
 
 .welcome-text h2 {
@@ -107,6 +148,26 @@ a {
   color: #333333;
 }
 
+
+.advantages-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantages-item {
+  width: 400px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item-big {
+  width: 1200px;
+  display: flex;
+}
+
 .advantages-title-first {
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
@@ -117,7 +178,7 @@ a {
   text-transform: uppercase;
 }
 
-.advantages-decription-first {
+.advantages-description-first {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -136,7 +197,7 @@ a {
   text-transform: uppercase;
 }
 
-.advantages-decription-second {
+.advantages-description-second {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -153,6 +214,10 @@ a {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+}
+
+.interested-button {
+  text-align: center;
 }
 
 .text {
@@ -207,6 +272,8 @@ a {
   color: #FFFFFF;
   background-color: #756157;
   text-transform: uppercase;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .housing-card-button-love {
@@ -293,10 +360,6 @@ a {
   color: #000000;
 }
 
-.button-search-sedona {
-  background-color: #756157;
-  text-align: center;
-}
 
 .button-search-sedona {
   font-family: "PT Sans", sans-serif;
@@ -307,6 +370,10 @@ a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: #756157;
+  width: 500px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .inner-header-title {
@@ -414,3 +481,29 @@ a {
   font-size: 16px;
   line-height: 20px;
 }
+
+.main-container {
+  flex-grow: 1;
+}
+
+.page-footer-container-subscribe {
+  text-align: center;
+}
+
+.page-footer-container {
+  display: flex;
+  padding: 20px 70px;
+  justify-content: space-between;
+}
+
+.navigation-logo {
+  width: 140px;
+  margin-right: 40px;
+}
+
+.infrastructure-type-of-housing-filter {
+  display: flex;
+  padding: 70px 70px;
+}
+
+.catalog-right-column {}
