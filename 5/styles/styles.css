@@ -70,7 +70,6 @@ a {
   background-image: url("../images/form-hotel.jpg");
   background-size: 118% auto;
   background-repeat: no-repeat;
-  text-align: center;
 }
 
 .blue-block {
@@ -109,7 +108,6 @@ a {
   width: 1200px;
   margin: 0 auto;
   background: #ffffff;
-  padding: 0 auto;
 }
 
 
@@ -199,7 +197,7 @@ a {
   text-transform: uppercase;
 }
 
-.advantages-decription-second {
+.advantages-description-second {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -508,6 +506,4 @@ a {
   padding: 70px 70px;
 }
 
-.catalog-right-column {
-  width: 431px;
-}
+.catalog-right-column {}
