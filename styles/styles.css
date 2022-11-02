@@ -340,7 +340,7 @@ a {
   text-transform: uppercase;
 }
 
-.numbers-pagination {
+.pagination {
   display: flex;
   flex-wrap: wrap;
 }
