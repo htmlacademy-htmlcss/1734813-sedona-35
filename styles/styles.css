@@ -621,6 +621,7 @@ a {
   list-style-type: none;
   display: flex;
   gap: 20px;
+  width: 340px;
 }
 
 .property-list-second {
