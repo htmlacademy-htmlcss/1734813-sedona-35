@@ -43,6 +43,14 @@ a {
   text-align: center;
 }
 
+.welcome-sedona-text {
+  margin-bottom: 90px;
+}
+
+.welcome-sedona {
+  padding-top: 69px;
+}
+
 .newsletter-background {
   background-image: url("../images/subcribe.jpg");
   background-size: 100% auto;
@@ -68,7 +76,7 @@ a {
 
 .inner-header {
   background-image: url("../images/form-hotel.jpg");
-  background-size: 118% auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -85,23 +93,45 @@ a {
 }
 
 .navigation-list {
-  width: 430px;
+  flex-wrap: wrap;
+  width: 705px;
   margin: 0;
-  padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .navigation-link {
+  display: block;
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
   color: #000000;
+  list-style-type: none;
+  padding: 20px;
 }
 
 .navigation-user {
-  max-width: 250px;
   margin-left: auto;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  list-style: none;
+  display: flex;
+  width: 250px;
+}
+
+.navigation-link {
+  min-width: 18px;
+  min-height: 17px;
+}
+
+
+
+.footer-social-list {
+  min-width: 24px;
+  min-height: 14px;
 }
 
 .page-container {
@@ -113,7 +143,6 @@ a {
 
 .logo {
   display: block;
-  margin: 0 auto;
 }
 
 
@@ -126,7 +155,11 @@ a {
   color: #FFFFFF;
   border: none;
   text-transform: uppercase;
-  list-style: none;
+  list-style-type: none;
+}
+
+.navigation-item-second {
+  list-style-type: none;
 }
 
 .welcome-text h2 {
@@ -195,6 +228,7 @@ a {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+  padding-top: 81px;
 }
 
 .advantages-description-second {
@@ -204,6 +238,8 @@ a {
   font-weight: 400;
   text-align: center;
   color: #333333;
+  margin-bottom: 81px;
+  display: block;
 }
 
 .interested {
@@ -236,6 +272,21 @@ a {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
+  padding-top: 56px;
+  padding-bottom: 66px;
+  padding-left: 70px;
+}
+
+.housing-card {
+  list-style-type: none;
+  width: 340px;
+}
+
+.catalog-right-column {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  align-items: center;
 }
 
 .housing-card-title {
@@ -298,6 +349,18 @@ a {
   text-transform: uppercase;
 }
 
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-item {
+  list-style-type: none;
+  margin-right: 8px;
+  margin-bottom: 60px;
+  width: 60px;
+}
+
 .rating {
   font-family: 'PT Sans';
   font-style: normal;
@@ -315,6 +378,16 @@ a {
   text-align: center;
   color: #000000;
   text-transform: uppercase;
+  margin-top: 96px;
+}
+
+.footer-social-item {
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+  display: block;
+  margin-right: 27px;
+  margin-top: 58px;
 }
 
 .newsletter-white p {
@@ -333,6 +406,14 @@ a {
   font-weight: 400;
   text-align: center;
   color: #333333;
+  margin-bottom: 54px;
+}
+
+.footer-icons {
+  display: block;
+
+  margin-top: 49px;
+  margin-bottom: 39px;
 }
 
 .button-newsletter-button {
@@ -358,6 +439,9 @@ a {
   font-size: 40px;
   line-height: 40px;
   color: #000000;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  display: block;
 }
 
 
@@ -373,7 +457,7 @@ a {
   background-color: #756157;
   width: 500px;
   display: inline-block;
-  margin: 0 auto;
+  margin-bottom: 91px;
 }
 
 .inner-header-title {
@@ -383,6 +467,16 @@ a {
   line-height: 78px;
   color: #FFFFFF;
   text-transform: uppercase;
+  padding-top: 35px;
+  padding-left: 70px;
+}
+
+.breadcrumbs {
+  list-style-type: none;
+}
+
+.catalog-filter-list {
+  list-style-type: none;
 }
 
 .breadcrumbs-link {
@@ -391,6 +485,7 @@ a {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
+  padding-left: 111px;
 }
 
 .catalog-filter-title {
@@ -444,6 +539,8 @@ a {
   font-size: 18px;
   line-height: 21px;
   color: #333333;
+  margin-left: auto;
+  align-items: center;
 }
 
 .field {
@@ -453,6 +550,7 @@ a {
   font-size: 18px;
   line-height: 24px;
   color: #000000;
+  margin-bottom: 104px;
 }
 
 .pagination-link {
@@ -472,6 +570,7 @@ a {
   font-size: 20px;
   line-height: 36px;
   color: #000000;
+
 }
 
 .rating {
@@ -484,6 +583,7 @@ a {
 
 .main-container {
   flex-grow: 1;
+  list-style-type: none;
 }
 
 .page-footer-container-subscribe {
@@ -496,7 +596,12 @@ a {
   justify-content: space-between;
 }
 
-.navigation-logo {
+.logo {
+  margin-bottom: 82px;
+  margin-top: 51px;
+}
+
+.e-logo {
   width: 140px;
   margin-right: 40px;
 }
@@ -506,4 +611,25 @@ a {
   padding: 70px 70px;
 }
 
-.catalog-right-column {}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.interested-text {
+  margin-bottom: 54px;
+}
+
+.property-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  width: 1060px;
+  flex-wrap: wrap;
+}
