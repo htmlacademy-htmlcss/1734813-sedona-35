@@ -96,7 +96,8 @@ a {
   flex-wrap: wrap;
   width: 705px;
   margin: 0;
-  list-style: none;
+  padding: 0;
+  list-style-type: none;
   display: flex;
 }
 
@@ -141,9 +142,7 @@ a {
 }
 
 
-.logo {
-  display: block;
-}
+.logo {}
 
 
 .navigation-link-button {
@@ -272,14 +271,34 @@ a {
   font-weight: 700;
   color: #000000;
   text-transform: uppercase;
-  padding-top: 56px;
-  padding-bottom: 66px;
-  padding-left: 70px;
+  padding: auto;
+  margin-left: 70px;
+  margin-top: 56.5px;
+  margin-bottom: 66.5px;
+}
+
+.housing-content {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.housing-content-second {
+  display: flex;
+  gap: 20px;
+}
+
+.housing-content-three {
+  display: flex;
+  justify-content: space-between;
 }
 
 .housing-card {
-  list-style-type: none;
-  width: 340px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
 }
 
 .catalog-right-column {
@@ -319,11 +338,9 @@ a {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  text-align: center;
   color: #FFFFFF;
   background-color: #756157;
   text-transform: uppercase;
-  display: inline-block;
   margin: 0 auto;
 }
 
@@ -332,10 +349,10 @@ a {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  text-align: center;
   color: #FFFFFF;
   background-color: #82B3D3;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .housing-card-button-love-green {
@@ -347,18 +364,18 @@ a {
   color: #FFFFFF;
   background-color: #7DB54F;
   text-transform: uppercase;
+  margin: 0 auto;
 }
 
 .pagination {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(6, 60px);
+  gap: 8px;
 }
 
 .pagination-item {
   list-style-type: none;
-  margin-right: 8px;
   margin-bottom: 60px;
-  width: 60px;
 }
 
 .rating {
@@ -368,6 +385,7 @@ a {
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+  justify-content: space-between
 }
 
 .page-footer-title {
@@ -570,7 +588,6 @@ a {
   font-size: 20px;
   line-height: 36px;
   color: #000000;
-
 }
 
 .rating {
@@ -596,15 +613,6 @@ a {
   justify-content: space-between;
 }
 
-.logo {
-  margin-bottom: 82px;
-  margin-top: 51px;
-}
-
-.e-logo {
-  width: 140px;
-  margin-right: 40px;
-}
 
 .infrastructure-type-of-housing-filter {
   display: flex;
@@ -627,9 +635,11 @@ a {
 }
 
 .property-list {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
   list-style-type: none;
-  display: flex;
-  gap: 20px;
-  width: 1060px;
-  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: 60px;
+  margin-left: 90px;
 }
