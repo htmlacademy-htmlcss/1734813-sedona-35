@@ -112,6 +112,16 @@ a {
   padding: 20px;
 }
 
+.navigation-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #000000;
+}
+
 .navigation-user {
   margin-left: auto;
   flex-wrap: wrap;
@@ -120,7 +130,7 @@ a {
   padding-bottom: 14px;
   list-style: none;
   display: flex;
-  width: 250px;
+  width: 350px;
 }
 
 .navigation-link {
@@ -131,8 +141,35 @@ a {
 
 
 .footer-social-list {
-  min-width: 24px;
-  min-height: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  margin: auto;
+}
+
+.footer-social-link {
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-social-vk {
+  background-image: url("images/telegram.svg");
+  fill: #83B3D3;
+}
+
+.footer-social-tg {
+  background-image: url("images/vk.svg");
+  fill: #83B3D3;
+}
+
+.footer-social-yt {
+  background-image: url("images/youtube.svg");
+  fill: #83B3D3;
 }
 
 .page-container {
@@ -155,10 +192,25 @@ a {
   border: none;
   text-transform: uppercase;
   list-style-type: none;
+  width: 160px;
+  height: 36px;
+}
+
+.navigation-link-second {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  display: block;
+  gap: 25px;
 }
 
 .navigation-item-second {
+  display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
+  margin-left: 25px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .welcome-text h2 {
@@ -279,20 +331,20 @@ a {
 
 .housing-content {
   display: flex;
-  padding: 16px;
+  padding: 20px;
   align-items: center;
-  gap: 20px;
   justify-content: space-between;
 }
 
 .housing-content-second {
   display: flex;
-  gap: 20px;
+  padding: 20px;
 }
 
 .housing-content-three {
   display: flex;
   justify-content: space-between;
+  width: 300px;
 }
 
 .housing-card {
@@ -503,7 +555,6 @@ a {
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
-  padding-left: 111px;
 }
 
 .catalog-filter-title {
@@ -640,6 +691,53 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  gap: 60px;
+  gap: 20px;
   margin-left: 90px;
+}
+
+.filter-icons {
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  width: 16px;
+  height: 14px;
+  border: 2px solid #000000;
+  padding: 15px;
+}
+
+.filter-icons-second {
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  width: 16px;
+  height: 14px;
+  border: 2px solid #D3D3D3;
+  padding: 15px;
+}
+
+.rating-stars {
+  display: grid;
+  grid-template-columns: repeat(4, 19px);
+  gap: 6px;
+  width: 19px;
+  height: 19px;
+  margin-left: 8px;
+}
+
+.breadcrumbs-iteam {
+  margin-left: 35px;
+  margin-right: 11px;
+  margin-bottom: 45px;
+}
+
+.price {
+font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+list-style: none;
+width: 116.33px;
+height: 24px;
 }
