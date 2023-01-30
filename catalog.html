@@ -57,6 +57,7 @@
                     <h1 class="inner-header-title">Гостиницы Седоны</h1>
                     <ul class="breadcrumbs">
                         <li class="breadcrumbs-iteam">
+                            <a class="breadcrumbs-link" href="index.html"></a>
                             <svg сlass="breadcrumbs-iteam-house" width="13" height="13" viewBox="0 0 13 13" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -70,6 +71,8 @@
                                     d="M6.91526 4.96875L2.16526 0.71875C1.91526 0.46875 1.41526 0.46875 1.04026 0.71875C0.665263 0.96875 0.790263 1.46875 1.04026 1.71875L5.16526 5.46875L1.16526 9.21875C0.915263 9.46875 0.915263 9.96875 1.16526 10.2188C1.16526 10.3438 1.54026 10.4688 1.66526 10.4688C1.79026 10.4688 2.04026 10.3438 2.16526 10.2188L6.91526 5.96875C7.29026 5.71875 7.29026 5.21875 6.91526 4.96875Z"
                                     fill="white" />
                             </svg>
+                        </li>
+                        <li class="breadcrumbs-iteam">
                             <a class="breadcrumbs-link">Гостиницы</a>
                         </li>
                     </ul>
@@ -128,9 +131,9 @@
                             </ul>
                         </fieldset>
                         <ul>
-                           <li class="price">
-                            <p>Стоимость, ₽:</p>
-                           </li>
+                            <li class="price">
+                                <p>Стоимость, ₽:</p>
+                            </li>
                         </ul>
                         <div>
                             <button class="button-enter" type="submit">Применить</button>
@@ -148,18 +151,35 @@
                         </select>
                         <div class="toolbar">
                             <a class="button" href="#">
-                                <img class="filter-icons" src="images/window.svg" width="16" height="14" alt="Окно">
-                                <span class="visually-hidden" hidden>Показать карточки</span>
+                                <svg class="filter-icons" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 0H0V6H4V0Z" fill="black" />
+                                    <path d="M16 0H12V6H16V0Z" fill="black" />
+                                    <path d="M10 0H6V6H10V0Z" fill="black" />
+                                    <path d="M4 8H0V14H4V8Z" fill="black" />
+                                    <path d="M16 8H12V14H16V8Z" fill="black" />
+                                    <path d="M10 8H6V14H10V8Z" fill="black" />
+                                </svg>
                             </a>
                             <a href="#" class="button button-light">
-                                <img class="filter-icons-second" src="images/separatewindow.svg" width="16" height="14"
-                                    alt="Отдельоное окно">
-                                <span class="visually-hidden" hidden>Показать карточку отдельно</span>
+                                <svg class="filter-icons-second" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 12H0V14H16V12Z" fill="black" />
+                                    <path d="M14 2V8H2V2H14ZM16 0H0V10H16V0Z" fill="black" />
+                                </svg>
                             </a>
                             <a href="#" class="button button-light">
-                                <img class="filter-icons-second" src="images/linear.svg" width="16" height="14"
-                                    alt="список">
-                                <span class="visually-hidden" hidden>Показать список</span>
+                                <svg class="filter-icons-three" width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M2 0H0V2H2V0Z" fill="black" />
+                                    <path d="M16 0H4V2H16V0Z" fill="black" />
+                                    <path d="M2 4H0V6H2V4Z" fill="black" />
+                                    <path d="M16 4H4V6H16V4Z" fill="black" />
+                                    <path d="M2 8H0V10H2V8Z" fill="black" />
+                                    <path d="M16 8H4V10H16V8Z" fill="black" />
+                                    <path d="M2 12H0V14H2V12Z" fill="black" />
+                                    <path d="M16 12H4V14H16V12Z" fill="black" />
+                                </svg>
                             </a>
                         </div>
                     </div>
@@ -418,9 +438,10 @@
                         </address>
                     </section>
                     <div class="footer-social">
-                        <img class="footer-icons" src="images/htmlacademy.svg" width="115" height="33"
-                            alt="htmlacademy">
-                        <a class="htmlacademy-link" href="https://htmlacademy.ru/"></a>
+                        <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+                            <img class="footer-icons" width="115" height="33" src="images/htmlacademy.svg"
+                                alt="htmlacademy">
+                        </a>
                     </div>
                 </div>
             </footer>
